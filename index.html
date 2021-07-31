@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                   
+                    <!--- <h2>LOGIN</h2>
+                      <form>
+                          <input type="email" class="input-box" placeholder="Your Email Id" required>
+                          <input type="password" class="input-box" placeholder="password" required>
+                          <button type="submit"class="submit-btn">Submit</button>
+                          <input type="checkbox" ><span>Remember Me</span>
+                        
+                      </form>-->
+                    <button type="button" class="btn" onclick="openRegister()">Click here</button>
+                    <!--<a href="">Forgot Password</a>-->
+                  
+                    <h1> Dear Friend 	</h1>
+                </div>
+                <div class="card-back">
+                    <!--<h2>REGISTER</h2>
+                    <form>
+                        <input type="email" class="input-box" placeholder="Your Name" required>
+                        <input type="email" class="input-box" placeholder="Your Email Id" required>
+                        <input type="password" class="input-box" placeholder="password" required>
+                        <button type="submit"class="submit-btn">Submit</button>
+                        <input type="checkbox" ><span>Remember Me</span>
+                      
+                    </form>-->
+                    <button type="button" class="btn" onclick="openLogin()"><i style="font-size:24px" class="fa">&#xf104;</i></button>
+                    <!--<a href="">Forgot Password</a>--><!--<i class='fas fa-angle-left' style='font-size:26px'></i>-->
+                    <h2> I know that you are the only person in this world who knows me better than myself.
+                        Your friendship has filled my heart with positivity  You changed my life with your
+                        words. Happy FriendShip day!<br>My Dear Madam!
+                    </h2>
+                    <p>Your Student :-<br> Bharath </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var card = document.getElementById("card");
+
+
+        function openRegister() {
+            card.style.transform = "rotateY(-180deg)";
+
+        }
+        function openLogin() {
+            card.style.transform = "rotateY(0deg)";
+        }
+    </script>
+</body>
+
+</html>
